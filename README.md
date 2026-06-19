@@ -6,28 +6,26 @@ A fully responsive hotel/accommodation booking web app inspired by Booking.com's
 ![Vite](https://img.shields.io/badge/Vite-5+-purple.svg)
 ![Tailwind](https://img.shields.io/badge/Tailwind-3+-cyan.svg)
 
-## ✨ Features
+## Features
 
-- 🎨 **Pixel-perfect Booking.com UI** - Matches the official design system
-- 📱 **Fully Responsive** - Mobile, tablet, and desktop optimized
-- 🔍 **Search Functionality** - Filter by destination, property type, and ratings
-- 🏠 **Property Listings** - Browse hotels, apartments, resorts, and villas
-- 📸 **Image Gallery** - Lightbox with carousel navigation
-- ⭐ **Reviews & Ratings** - Display guest feedback
-- 💾 **Save Properties** - Heart/save functionality on property cards
-- 🎯 **Client-side Routing** - Smooth navigation with React Router
-
-## 🚀 Quick Start
+-  **Pixel-perfect Booking.com UI** - Matches the official design system
+-  **Fully Responsive** - Mobile, tablet, and desktop optimized
+-  **Search Functionality** - Filter by destination, property type, and ratings
+-  **Property Listings** - Browse hotels, apartments, resorts, and villas
+-  **Image Gallery** - Lightbox with carousel navigation
+-  **Reviews & Ratings** - Display guest feedback
+-  **Save Properties** - Heart/save functionality on property cards
+-  **Client-side Routing** - Smooth navigation with React Router
 
 ### Prerequisites
 - Node.js 16+ installed
-- npm or yarn package manager
+- npm 
 
 ### Installation
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR-USERNAME/booking-clone.git
+git clone https://github.com/franmurerwa /booking-clone.git
 
 # Navigate to project directory
 cd booking-clone
@@ -48,7 +46,7 @@ npm run build      # Creates optimized build in /dist
 npm run preview    # Preview production build locally
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 src/
@@ -75,7 +73,7 @@ src/
 └── main.jsx                        # App entry point
 ```
 
-## 🎨 Tech Stack
+## Tech Stack
 
 - **Frontend:** React 18+
 - **Build Tool:** Vite 5+
@@ -84,7 +82,7 @@ src/
 - **Icons:** Custom SVG icons
 - **Images:** Unsplash API
 
-## 🌐 Deployment
+## Deployment
 
 ### Deploy to Vercel (Recommended)
 
@@ -92,9 +90,9 @@ src/
    ```bash
    git init
    git add .
-   git commit -m "Initial commit"
+   git commit -m"pushing without node-modules"
    git branch -M main
-   git remote add origin https://github.com/YOUR-USERNAME/booking-clone.git
+   git remote add origin https://github.com/franmurerwa/booking-clone.git
    git push -u origin main
    ```
 
@@ -102,27 +100,17 @@ src/
    - Go to [vercel.com](https://vercel.com)
    - Click "New Project"
    - Import your GitHub repository
-   - Vercel auto-detects Vite settings ✨
+   - Vercel auto-detects Vite settings 
    - Click "Deploy"
 
-### Deploy to Netlify
 
-1. Push to GitHub (same as above)
-2. Go to [netlify.com](https://netlify.com)
-3. Click "Add new site" → "Import an existing project"
-4. Connect to GitHub and select your repo
-5. Build settings:
-   - **Build command:** `npm run build`
-   - **Publish directory:** `dist`
-6. Click "Deploy site"
-
-## 📱 Responsive Breakpoints
+## Responsive Breakpoints
 
 - **Mobile:** < 640px - Single column, hamburger menu
 - **Tablet:** 640px - 1024px - 2-3 column grids
 - **Desktop:** > 1024px - Full layout with sidebar
 
-## 🎨 Color Palette
+## Color Palette
 
 ```css
 Primary Navy:  #003580
@@ -142,19 +130,16 @@ Text:          #1a202c
 | `/login`           | Sign in (UI only)              |
 | `/signup`          | Register (UI only)             |
 
-## 🤝 Contributing
+## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+Contributions are welcome! feel free to submit a Pull Request.
 
-## 📄 License
 
-This project is for educational purposes only. It's a UI clone inspired by Booking.com.
+## Author
 
-## 👨‍💻 Author
+Francoise MURERWA  - [GitHub](https://github.com/franmurerwa-ui)
 
-Your Name - [GitHub](https://github.com/YOUR-USERNAME)
-
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Design inspiration: [Booking.com](https://booking.com)
 - Images: [Unsplash](https://unsplash.com)
